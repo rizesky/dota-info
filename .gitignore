@@ -104,6 +104,9 @@ Temporary Items
 # Environment variables
 .env
 
+# Don't ignore .env file in web-ui directory, because it is a public .env as react document says
+!/web-ui/.env
+
 # Log files
 *.log
 
@@ -124,4 +127,4 @@ debug
 
 
 # Compiled binary
-main
+dota_leaderboard

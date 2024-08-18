@@ -15,12 +15,14 @@ type DotaApiLeaderboardResponse struct {
 }
 
 type Leader struct {
-	Rank    int    `json:"rank"`
-	Name    string `json:"name"`
-	TeamID  int    `json:"teamId"`
-	TeamTag string `json:"teamTag"`
-	Country string `json:"country"`
-	Sponsor string `json:"sponsor"`
+	Rank        int    `json:"rank"`
+	Name        string `json:"name"`
+	TeamID      int    `json:"teamId"`
+	TeamName    string `json:"teamName"`
+	TeamTag     string `json:"teamTag"`
+	Nationality string `json:"nationality"`
+	Sponsor     string `json:"sponsor"`
+	TeamInfoUrl string `json:"teamInfoUrl"`
 }
 
 type APIResponse struct {

@@ -30,9 +30,11 @@ const MMRLeaderboard = () => {
             rank: player.rank,
             name: player.name,
             teamTag: player.teamTag,
+            teamName: player.teamName,
             nationality: player.nationality,
             mmr: player.mmr || 'N/A', // API doesn't provide MMR
-            image: '/placeholder.jpg' // Use a placeholder image
+            image: '/placeholder.jpg', // Use a placeholder image
+            sponsor: player.sponsor
           }))
         }));
         setLastUpdated(prevUpdated => ({

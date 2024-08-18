@@ -1,0 +1,85 @@
+# team_info.yaml
+
+flcn:
+  name: "Team Falcons"
+  public_information_url: "https://liquipedia.net/dota2/Team_Falcons"
+
+c9:
+  name: "Cloud 9"
+  public_information_url: "https://liquipedia.net/dota2/Cloud9"
+
+talon:
+  name: "Talon"
+  public_information_url: "https://liquipedia.net/dota2/Talon_Esports"
+
+betboom:
+  name: "BetBoom"
+  public_information_url: "https://liquipedia.net/dota2/BetBoom_Team"
+
+navi:
+  name: "Natus Vincere"
+  public_information_url: "https://liquipedia.net/dota2/Natus_Vincere"
+
+l1:
+  name: "L1GA Team"
+  public_information_url: "https://liquipedia.net/dota2/L1GA_TEAM"
+
+cuy:
+  name: "Cuyes E-Sports"
+  public_information_url: "https://www.gosugamers.net/dota2/teams/53573-cuyes-esports"
+
+og:
+  name: "OG"
+  public_information_url: "https://liquipedia.net/dota2/OG"
+
+liquid:
+  name: "Team Liquid"
+  public_information_url: "https://liquipedia.net/dota2/Team_Liquid"
+
+tspirit:
+  name: "Team Spirit"
+  public_information_url: "https://liquipedia.net/dota2/Team_Spirit"
+
+gg:
+  name: "Gaimin Gladiators"
+  public_information_url: "https://liquipedia.net/dota2/Gaimin_Gladiators"
+
+sr:
+  name: "Shopify Rebellion"
+  public_information_url: "https://liquipedia.net/dota2/Shopify_Rebellion"
+
+xtreme:
+  name: "Xtreme Gaming"
+  public_information_url: "https://liquipedia.net/dota2/Xtreme_Gaming"
+
+tundra:
+  name: "Tundra Esports"
+  public_information_url: "https://liquipedia.net/dota2/Tundra_Esports"
+
+entity:
+  name: "Entity"
+  public_information_url: "https://liquipedia.net/dota2/Entity"
+
+boom:
+  name: "Boom Esports"
+  public_information_url: "https://liquipedia.net/dota2/BOOM_Esports"
+
+secret:
+  name: "Team Secret"
+  public_information_url: "https://liquipedia.net/dota2/Team_Secret"
+
+aurora:
+  name: "Aurora"
+  public_information_url: "https://liquipedia.net/dota2/Aurora"
+
+bleed:
+  name: "Bleed Esports"
+  public_information_url: "https://liquipedia.net/dota2/Bleed_Esports"
+
+tnc:
+  name: "Tnc Predators"
+  public_information_url: "https://liquipedia.net/dota2/TNC_Predator"
+
+blck:
+  name: "Blacklist International"
+  public_information_url: "https://liquipedia.net/dota2/Blacklist_International"
