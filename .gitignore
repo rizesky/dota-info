@@ -30,8 +30,10 @@ go.work
 # React misc
 /web-ui/.DS_Store
 /web-ui/.env.local
+/web-ui/.env.development
 /web-ui/.env.development.local
 /web-ui/.env.test.local
+/web-ui/.env.production
 /web-ui/.env.production.local
 
 /web-ui/npm-debug.log*

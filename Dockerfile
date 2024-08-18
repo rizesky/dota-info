@@ -21,6 +21,7 @@ RUN apk --no-cache add ca-certificates
 WORKDIR /app
 COPY --from=go-builder /app/dota-leaderboard .
 COPY --from=react-builder /app/build ./web-ui/build
+COPY team_info.yaml .
 RUN chmod +x ./dota-leaderboard
 EXPOSE 8080
 ENTRYPOINT ["/app/dota-leaderboard"]

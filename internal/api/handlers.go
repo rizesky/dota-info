@@ -21,9 +21,20 @@ func GetLeaderboardHandler(cache *leaderboard.Cache) http.HandlerFunc {
 		}
 
 		leaders, nextScheduledPostTime, lastFetchTime, ok := regionCache.Get()
+		// We comment this for now, since fly.io keep saying this excess capacity
+		//if !ok {
+		//	http.Error(w, "Data not available yet for this region", http.StatusServiceUnavailable)
+		//	return
+		//}
+
 		if !ok {
-			http.Error(w, "Data not available yet for this region", http.StatusServiceUnavailable)
-			return
+			leaderboardData, nextFetchTime, err := leaderboard.FetchLeaderboard(region)
+			if err != nil {
+				http.Error(w, err.Error(), http.StatusInternalServerError)
+				return
+			}
+			regionCache.Set(leaderboardData, nextFetchTime)
+			leaders, nextScheduledPostTime, lastFetchTime, _ = regionCache.Get()
 		}
 
 		response := leaderboard.APIResponse{

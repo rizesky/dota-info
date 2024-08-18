@@ -1,7 +1,7 @@
 const Tribute = () => (
     <div className="tribute">
         <div>
-            Made with ❤️ by <a href="https://github.com/rizesky" target="_blank" rel="noopener noreferrer">zes</a>
+            Made for fun 😁 by <a href="https://github.com/rizesky" target="_blank" rel="noopener noreferrer">zes</a>
         </div>
         <div className="tribute-links">
             <span>
