@@ -226,6 +226,40 @@ h1 {
   opacity: 0.8;
 }
 
+.player-sponsor {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.sponsor-name {
+  color: var(--accent-color);
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.rank-gold .player-sponsor,
+.rank-silver .player-sponsor,
+.rank-bronze .player-sponsor {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.rank-gold .sponsor-name {
+  color: #ffd700;
+}
+
+.rank-silver .sponsor-name {
+  color: #c0c0c0;
+}
+
+.rank-bronze .sponsor-name {
+  color: #cd7f32;
+}
+
 .player-navigation {
   display: flex;
   justify-content: space-between;
@@ -446,4 +480,54 @@ h1 {
 
 .tribute-links a {
   text-decoration: underline;
+}
+
+.team-link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 2px 5px;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.team-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  text-decoration: underline;
+}
+
+.rank-gold .team-link {
+  color: #ffd700;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.rank-silver .team-link {
+  color: #e0e0e0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.rank-bronze .team-link {
+  color: #cd7f32;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.rank-gold .team-link:hover,
+.rank-silver .team-link:hover,
+.rank-bronze .team-link:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.team-name {
+  color: #ffffff;
+  padding: 2px 5px;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.rank-gold .team-name,
+.rank-silver .team-name,
+.rank-bronze .team-name {
+  background-color: rgba(0, 0, 0, 0.6);
 }

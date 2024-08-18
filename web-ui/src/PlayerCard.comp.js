@@ -31,6 +31,24 @@ const PlayerCard = ({ player }) => {
     return rank;
   };
 
+  const renderTeamInfo = () => {
+    if (player.teamTag) {
+      if (player.teamInfoUrl) {
+        return (
+            <p className='player-team'>
+              <a href={player.teamInfoUrl} target="_blank" rel="noopener noreferrer" className="team-link">
+              {player.teamName} ({player.teamTag})
+            </a>
+            </p>
+        );
+      } else {
+        return <p className='player-team'>Team: <span className="team-name">{player.teamName} ({player.teamTag})</span></p>;
+      }
+    } else {
+      return <p className='player-team'>Not In Pro Team</p>;
+    }
+  };
+
   return (
     <div className={`player-card ${getRankClass(player.rank)}`}>
       <div className="player-card-inner">
@@ -49,10 +67,7 @@ const PlayerCard = ({ player }) => {
         </div>
         <div className="player-info">
           <h2 className="player-name">{player.name}</h2>
-          {player.teamTag ?
-            <p className='player-team'>{player.teamName} ({player.teamTag})</p> :
-            <p className='player-team'>Not In Pro Team</p>
-          }
+          {renderTeamInfo()}
           <div className="player-details">
             {flagUrl && (
               <span className="player-nationality">
@@ -62,11 +77,12 @@ const PlayerCard = ({ player }) => {
             {player.mmr && player.mmr !== 'N/A' && (
               <span className="player-mmr">{player.mmr} MMR</span>
             )}
-
-            {player.sponsor && (
-              <span className="player-mmr">{player.sponsor}</span>
-            )}
           </div>
+          {player.sponsor && (
+            <div className="player-sponsor">
+              Sponsor : <span className="sponsor-name">{player.sponsor}</span>
+            </div>
+          )}
         </div>
       </div>
     </div>
