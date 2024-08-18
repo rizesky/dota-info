@@ -1,0 +1,127 @@
+# Go-specific ignores
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace file
+go.work
+
+# Go binary
+/dota2-leaderboard
+
+# Go vendor directory
+/vendor/
+
+# Node.js / React ignores
+/web-ui/node_modules
+/web-ui/.pnp
+/web-ui/.pnp.js
+
+# React production build
+/web-ui/build
+
+# React testing
+/web-ui/coverage
+
+# React misc
+/web-ui/.DS_Store
+/web-ui/.env.local
+/web-ui/.env.development.local
+/web-ui/.env.test.local
+/web-ui/.env.production.local
+
+/web-ui/npm-debug.log*
+/web-ui/yarn-debug.log*
+/web-ui/yarn-error.log*
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# JetBrains IDEs
+.idea/
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# AWS User-specific
+.idea/**/aws.xml
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Environment variables
+.env
+
+# Log files
+*.log
+
+# Editor backup files
+*~
+*.swp
+*.swo
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+
+# Debug files
+debug
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+
+# Compiled binary
+main

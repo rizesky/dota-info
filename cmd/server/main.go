@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"errors"
 	"github.com/rizesky/dota-info/internal/api"
 	"github.com/rizesky/dota-info/internal/leaderboard"
 	"github.com/rizesky/dota-info/internal/worker"
@@ -43,7 +44,7 @@ func main() {
 
 	go func() {
 		log.Println("Starting server on :8080")
-		if err := server.ListenAndServe(); err != nil && err != http.ErrServerClosed {
+		if err := server.ListenAndServe(); err != nil && !errors.Is(err, http.ErrServerClosed) {
 			log.Fatalf("Error starting server: %v", err)
 		}
 	}()
