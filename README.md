@@ -1,5 +1,7 @@
 # Dota 2 Leaderboard Application
 
+This app is for getting dota information from several source.
+For now it is only able to get 10 top mmr leaders on each region.
 This project consists of a Go backend API and a React frontend for displaying Dota 2 leaderboard data, served from a single Go server.
 
 ## Project Structure
@@ -29,10 +31,9 @@ This project consists of a Go backend API and a React frontend for displaying Do
 
 The application will be available at `http://localhost:8080`
 
-## Contributing
-
-Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
-
 ## License
-
 This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+## Acknowledgments
+- Valve Corporation for Dota 2
+- Dota 2 Leaderboard `https://www.dota2.com/leaderboard`
