@@ -49,10 +49,10 @@ const PlayerCard = ({ player }) => {
             </p>
         );
       } else {
-        return <p className='player-team'>Team: <span className="team-name">{player.teamName} ({player.teamTag})</span></p>;
+        return <p className='player-team'><span className="team-name">{player.teamName} ({player.teamTag})</span></p>;
       }
     } else {
-      return <p className='player-team'>Not In Pro Team</p>;
+      return <p className='player-team'>Not in Pro Team</p>;
     }
   };
 

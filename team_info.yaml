@@ -5,7 +5,9 @@ vp:
 flcn:
   name: "Team Falcons"
   public_information_url: "https://liquipedia.net/dota2/Team_Falcons"
-
+bleed:
+  name: "Bleed Esports"
+  public_information_url: "https://liquipedia.net/dota2/Bleed_Esports"
 c9:
   name: "Cloud 9"
   public_information_url: "https://liquipedia.net/dota2/Cloud9"
@@ -69,15 +71,9 @@ boom:
 secret:
   name: "Team Secret"
   public_information_url: "https://liquipedia.net/dota2/Team_Secret"
-
 aurora:
   name: "Aurora"
   public_information_url: "https://liquipedia.net/dota2/Aurora"
-
-bleed:
-  name: "Bleed Esports"
-  public_information_url: "https://liquipedia.net/dota2/Bleed_Esports"
-
 tnc:
   name: "Tnc Predators"
   public_information_url: "https://liquipedia.net/dota2/TNC_Predator"
@@ -94,4 +90,4 @@ lgd:
   public_information_url: "https://liquipedia.net/dota2/LGD_Gaming"
 ig:
   name: "Invictus Gaming"
-  public_information"_url: "https://liquipedia.net/dota2/Invictus_Gaming"
+  public_information_url: "https://liquipedia.net/dota2/Invictus_Gaming"

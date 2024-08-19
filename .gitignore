@@ -130,3 +130,7 @@ debug
 
 # Compiled binary
 dota_leaderboard
+
+
+#Backup files
+*.bak
