@@ -8,7 +8,6 @@ This project consists of a Go backend API and a React frontend for displaying Do
 
 - `cmd/server/`: Contains the main Go application for web server
 - `internal/`: Internal packages for the Go backend
-- `pkg/`: Shared Go packages
 - `web-ui/`: Contains the React frontend application. For more detail check the directory readme
 
 ## Development
@@ -36,4 +35,4 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ## Acknowledgments
 - Valve Corporation for Dota 2
-- Dota 2 Leaderboard `https://www.dota2.com/leaderboard`
+- [Dota 2 Leaderboard](https://www.dota2.com/leaderboard)
