@@ -67,7 +67,7 @@ const PlayerCard = ({ player }) => {
         </div>
         <div className="player-info">
           <h2 className="player-name">{player.name}</h2>
-          {renderTeamInfo()}
+          {renderTeamInfo()}  
           <div className="player-details">
             {flagUrl && (
               <span className="player-nationality">
